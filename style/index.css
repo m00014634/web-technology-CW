@@ -1,0 +1,576 @@
+*{
+  
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-seri;
+  font-size: 10px;
+}
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    padding: 15px 0px 45px 0px;
+    font-weight: 300;
+}
+
+/*Homepage*/
+#homepage {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: mintcream;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+
+.leftside{
+display: flex;
+justify-content: start;
+align-items: center;
+position: relative;
+}
+
+.leftside .navbar a{
+    
+    padding: 25px 15px;
+    color:#3659b9;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.leftside .navbar  :hover {
+    color: rgb(255, 255, 255);
+    background-color: #3659b9;
+}
+
+.leftside .navbar  :active {
+    color: rgb(255, 255, 255);
+    
+}
+
+.leftside img {
+    mix-blend-mode: multiply;
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+
+.icons i {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.icons i:hover {
+    color:#2e82e8;
+}
+
+.btn-login {
+    padding: 8px 20px;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #2e82e8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+
+.btn-login:hover {
+    opacity: 0.9;
+}
+/* EndofHeader */
+
+.content{
+
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.content-items{
+    width: 600px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-style: italic;
+    color: beige;
+    padding: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description-items h1 {
+    color:aliceblue;
+    font-size: 5em;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.description-items p {
+    font-size: 2em;
+    color: #87CEFA;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.socials{
+    font-size: 20px;
+    margin-top: 150px;
+    
+}
+
+.socials a i {
+   
+    color: wheat;
+}
+
+.description-items {
+    width: 750px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.description-items input {
+    margin-top: 20px;
+    width: 500px;
+    padding: 12px 0px 12px 20px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: none;
+}
+/*EndofHomepage*/
+
+
+
+/* About */
+
+#about {
+    background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpeg);
+    padding-bottom: 50px;  
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{ 
+    background-color: white;
+    width: 1200px;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+
+.infophoto {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.info {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    line-height:30px;
+    justify-content: center;
+    
+}
+
+.info h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    text-align: start;
+    padding: 0;
+    font-weight: 500;
+    color: skyblue;
+}
+
+.info p {
+    color: rgba(24,24,24,0.639);
+}
+
+.bullets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapp {
+    width: 600px;
+}
+.wrapp h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    color: skyblue;
+    font-weight: 400;
+}
+
+.bullets p {
+    font-size: 2rem;
+    text-align: center;    
+    margin-top: 30px;
+    text-align: start;
+    color: darkorange ;
+    margin-bottom: 30px;
+}
+
+.info .see-more{
+    padding: 10px;
+    color: #cc750a;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fbb35a;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
+}
+
+.info .see-more:hover{
+    background-color: #cc750a;
+    color: #fff;
+    border-color: #fff;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.agenda-items {
+    width: 500px;
+    text-align: start;
+    line-height: 27px;
+}
+
+.agenda-items h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+    color: gray;
+    font-family: 'El Messiri', sans-serif;
+    color: cornflowerblue;
+}
+
+.agenda-items p {
+    font-size: 14px;
+}
+
+
+/*EndOfAbout */
+
+
+
+
+/*AnnouncementPage*/
+
+#announcements {
+   
+    margin: auto;   
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpeg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    min-height: 100vh; 
+    background-repeat: no-repeat;
+}
+
+.announcements p{
+
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+}
+
+.news-items img {
+   max-width: 100%;
+}
+
+.news-items {
+    width: 320px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: rgb(249, 245, 205);
+    border-radius: 2px;
+    line-height: 22px;
+    position: relative;
+    border-color: #fbb35a;
+    margin-bottom: 30px;
+ 
+}
+
+.btn-add {
+    padding: 7px;
+    position: absolute;
+    right: 2%;
+    bottom: 1%;
+    background-color: #48d5fc;
+    border-width: 0px;
+    color:antiquewhite;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.btn-add:hover {
+    opacity: 0.8;
+}
+
+.btn-add:active{
+    opacity: 0.3;
+}
+
+.btn-new {
+    background-color: rgb(255, 108, 108);
+    color:azure;
+    border: none;
+    padding: 5px;
+    font-size: 8px;
+    border-radius: 10px;
+    position: absolute;
+    right: -2%;
+    top: -2%
+}
+
+.btn-sale {
+    background-color: rgb(6, 175, 51);
+    color:azure;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    position: absolute;
+    right: -2%;
+    top: -2%
+}
+
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*EndOfAnnouncementPage*/
+
+
+
+
+
+
+/* gallery-page */
+
+#gallery {
+    padding-top: 50px;
+    background-image: url(../images/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+
+.gallery h1 {
+    padding-bottom: 20px;
+}
+
+.gallery p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.images-container img {
+    width: 300px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: darkslategrey;
+   
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.images-container img {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.images-container img:hover {
+    opacity: 0.6;
+    margin: 20px;
+    
+}
+
+/* EndOfgalleryPage */
+
+
+
+
+
+/*ContactPage*/
+
+#contact {
+    background-color: beige;
+    padding-bottom: 4rem;
+}
+
+.contact-items {
+    width: 300px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.contact-items h4 {
+    text-transform: uppercase;
+    color: #3659b9;
+}
+
+
+.contact-items p {
+    margin-top: 20px;
+}
+
+.forcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*EndOfContactPage*/
+
+
+.form-validation{
+    font-size: 17px;
+}
+
+
+
+.formposition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+/*Footer*/
+footer {
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+
+}
+
+footer p,footer h3, footer a{
+    font-family: 'Poppins', sans-serif ;
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left nav{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    transition: 0.5s;
+    
+}
+
+.left nav :hover {
+    color: #3659b9;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle input {
+    padding: 10px 150px 10px 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.btn-subscribe{
+    padding: 14px 25px 14px 25px;
+    border-radius: 12px;
+    border-width: 1px;
+    cursor: pointer;
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+    font-family: 'Poppins', sans-serif ;
+    border-color: #fff;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.btn-subscribe:hover {
+    background-color: #fff;
+    color: rgb(38, 38, 38);
+}
+
+/*EndOfFooter*/
+
